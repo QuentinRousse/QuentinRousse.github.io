@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <title>Portfolio - Quentin Rousse</title>
+    <!-- ----------------------------- RESET CSS -------------------------------- -->
+    <link rel="stylesheet" href="CSS/reset.css"> 
+    
+<!-- --------------------------------- Liens CSS ------------------------------- -->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/work.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+
+    
+</head>
+
+<body>
+    <!-- --------------------------------- Nav ---------------------------------------- -->
+      <nav>
+       <!-- <div class="blocNav">
+           <a href="#">FR / EN</a>
+       </div> -->
+
+       <div class="headermid">
+           <a href="#About-me">À propos de moi</a>
+           <a href="#Project">Projets</a>
+           <a href="#Contact">Contact</a>
+       </div>
+
+       <!-- <div class="blocNav">
+           <a href="#">Light / Dark</a>
+        </div> -->
+    </nav>
+    <!-- --------------------------------- écran d'arrivé ------------------------------- -->
+    <header>
+
+        <video class="background-video" src="Media/Video/MiniShowreel.mp4" autoplay loop muted></video>
+    
+        <div class="overlay"></div>
+    
+        <h1>Portfolio</h1>
+    
+        <h2 class="hero-name">Quentin<br>Rousse</h2>
+    
+    </header>
+
+    <img src="Media/Illustration/Fond cercle.svg" class="background-circle">
+     <!-- --------------------------------- About me ------------------------------- -->
+     <section id="About-me">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte</p>
+          </div>
+          <div class="about-image">
+            <img src="Media/img/Moi gauche.png" alt="Photo de moi">
+          </div>
+        </div>
+        <div class="logos-slider">
+
+            <button class="slider-btn prev">&#10094;</button>
+        
+            <div class="logos-container">
+        
+                <a class="logo-item" href="Experience/Experience-template.html" target="_blank">
+                    <img src="Media/logo/logo.svg" alt="Logo Engie">
+                </a>
+
+                <a class="logo-item" href="Experience/Experience-template.html" target="_blank">
+                    <img src="Media/logo/logo.svg" alt="Logo Vienne.TV">
+                </a>
+
+                <a class="logo-item" href="Experience/Experience-template.html" target="_blank">
+                    <img src="Media/logo/logo.svg" alt="Logo Université Savoie Mont blanc">
+                </a>
+
+                <a class="logo-item" href="Experience/Experience-template.html" target="_blank">
+                    <img src="Media/logo/logo.svg" alt="Logo 1">
+                </a>
+
+                <a class="logo-item" href="Experience/Experience-template.html" target="_blank">
+                    <img src="Media/logo/logo.svg" alt="Logo 1">
+                </a>
+
+                <a class="logo-item" href="Experience/Experience-template.html" target="_blank">
+                    <img src="Media/logo/logo.svg" alt="Logo 1">
+                </a>
+        
+                
+        
+            </div>
+        
+            <button class="slider-btn next">&#10095;</button>
+        
+        </div>
+      </section>
+     <!-- --------------------------------- PARTIE HEADER PROJET ------------------------------- -->
+    <main id="Project">
+        <div class="filters">
+
+            <button class="filter boutonG" data-filter="Audiovisuel">
+                Audiovisuel
+            </button>
+        
+            <button class="filter" data-filter="Animation">
+                Animation
+            </button>
+        
+            <button class="filter" data-filter="Graphisme">
+                Graphisme
+            </button>
+        
+        </div>
+        <!-- --------------------------------- PARTIE PROJET ------------------------------- -->
+        <div class="projects-grid">
+            <a class="project" target="_blank"
+                data-category="Audiovisuel Animation"
+                href="Projet/projet-template.html">
+
+                <img src="Media/Thumbnail/Stop motion.png">
+
+                <div class="project-overlay">
+                    <p class="year">2026</p>
+                    <h4 class="subtitle">Stop motion</h4>
+                    <h3>Festival international du film d'animation d'Annecy</h3>
+                </div>
+
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Graphisme"
+                href="Projects/stop-motion.html">
+
+                <img src="Media/Thumbnail/Affiche festifilm.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Affiche</h4>
+                    <h3>FestiFilm</h3>
+                </div>
+
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Animation Graphisme"
+                href="Projects/stop-motion.html">
+
+                <img src="Media/Thumbnail/motion design.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Motion Design</h4>
+                    <h3>Kinetic Typo</h3>
+                </div>
+
+            </a>
+            <a class="project" target="_blank"
+            data-category="Audiovisuel Animation"
+            href="Projects/stop-motion.html">
+
+            <img src="Media/Thumbnail/Stop motion.png">
+
+            <div class="project-overlay">
+                <p class="year">2026</p>
+                <h4 class="subtitle">Stop motion</h4>
+                <h3>Festival international du film d'animation d'Annecy</h3>
+            </div>
+
+        </a>
+        </div>
+    </main>
+
+    <!-- --------------------------------- Footer ------------------------------- -->
+    
+    <footer id="Contact">
+
+        <div class="contact-column">
+    
+            <h2>Contact</h2>
+    
+            <form id="contact-form">
+    
+                <input maxlength="100"
+                    type="email"
+                    name="email"
+                    placeholder="Votre e-mail"
+                    required
+                >
+    
+                <input maxlength="100"
+                    type="text"
+                    name="subject"
+                    placeholder="Objet"
+                    required
+                >
+    
+                <textarea id="messagearea" maxlength="5000"
+                    name="message"
+                    placeholder="Votre message"
+                    rows="8"
+                    required
+                ></textarea>
+
+                <div
+                    class="cf-turnstile"
+                    data-sitekey="0x4AAAAAAD-5HPJB6zymYYwZ">
+                </div>  
+    
+                <button type="submit" class="submitbutton">
+                    Envoyer
+                </button>
+                <p id="contact-message"></p>
+    
+            </form>
+    
+        </div>
+    
+        <div class="social-column">
+    
+            <h2>Réseaux sociaux</h2>
+            <div class="social-links">
+    
+                <a href="https://www.linkedin.com/in/quentin-rousse-183075298" target="_blank">
+                    <img class="imagereseaux"src="Media/Réseau sociaux/linkedin-logo-editorial-free-vector.jpg" alt="logo LinkedIn">
+                    Quentin Rousse
+                </a>
+
+
+                <a href="Media/CV/CV Quentin ROUSSE.pdf" target="_blank" rel="noopener noreferrer">CV Quentin Rousse</a>
+            </div>
+        </div>
+    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="module" src="JS/main.js"></script>
+    <script
+    src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+    async
+    defer>
+</script>
+
+</body>
+</html>
