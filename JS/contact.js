@@ -24,18 +24,18 @@ form.addEventListener("submit", function(event){
             '[name="cf-turnstile-response"]'
         );
         
-        if (!captcha.value) {
+        //if (!captcha.value) {
         
-            message.textContent =
-                "Veuillez valider le CAPTCHA.";
+            //message.textContent =
+            //    "Veuillez valider le CAPTCHA.";
         
-            message.className = "error";
+           // message.className = "error";
         
-            bouton.disabled = false;
-            bouton.textContent = "Envoyer";
+            //bouton.disabled = false;
+            //bouton.textContent = "Envoyer";
         
-            return;
-        }
+            //return;
+        //}
 
         // Envoi du formulaire à EmailJS
     emailjs.sendForm(
