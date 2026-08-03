@@ -1,10 +1,12 @@
 const background = document.querySelector(".background-circle");
 
-window.addEventListener("scroll", function(){
+if(background){
 
-    const scroll = window.scrollY;
+    window.addEventListener("scroll", function(){
 
-    background.style.transform =
-        `translateY(${scroll * (-0.2)}px)`;
+        background.style.transform =
+            `translateY(${window.scrollY * (-0.2)}px)`;
 
-});
+    });
+
+}
