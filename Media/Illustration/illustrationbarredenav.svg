@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1574 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-190.909873,-78.138736)">
+        <g id="Ligne">
+            <g>
+                <path id="Ligne-Violet" serif:id="Ligne Violet" d="M201.198,88.708L1761.378,91.899" style="fill:none;stroke:rgb(98,74,152);stroke-width:6px;"/>
+                <path id="Ligne-Jaune" serif:id="Ligne Jaune" d="M193.91,81.139L1752.645,83.543" style="fill:none;stroke:rgb(250,189,103);stroke-width:6px;"/>
+                <path d="M196.8,83.543L1756.571,87.2" style="fill:none;stroke:black;stroke-width:6px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
