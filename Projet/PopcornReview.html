@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Popcorn Review</title>
+
+     <!-- ----------------------------- RESET CSS -------------------------------- -->
+     <link rel="stylesheet" href="../CSS/reset.css"> 
+    
+     <!-- --------------------------------- Liens CSS ------------------------------- -->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/projet.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+</head>
+<body>
+    <div class="Titre">
+        <h2>
+            Popcorn Review
+        </h2>
+        <h3>
+            Projet personnel - Montage
+        </h3>
+    </div>
+
+    <!-- Si vidéo Horizontal :  -->
+    
+    <div class="BlocProjetH">
+        <iframe
+            src="https://www.youtube.com/embed/UlLcz4Sw4yY?si=SRSRbLu8hGCafpY1"
+            
+            title="Vidéo"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        </div>
+    <p>
+       J'ai fais du montage pour cette chaine Youtube : Popcorn Review où j'ai réalisé un montage par semaine pour la saison 2 des review de film et le top 10 2025.
+        <br> <br>
+        Outils : Davinci Resolve
+    </p>
+
+
+<!-- ----------------------------------------------------FOOTER --------------------------------------------- -->
+     
+    <footer id="Contact">
+
+        <div class="contact-column">
+    
+            <h2>Contact</h2>
+    
+            <form id="contact-form">
+    
+                <input maxlength="100"
+                    type="email"
+                    name="email"
+                    placeholder="Votre e-mail"
+                    required
+                >
+    
+                <input maxlength="100"
+                    type="text"
+                    name="subject"
+                    placeholder="Objet"
+                    required
+                >
+    
+                <textarea id="messagearea" maxlength="5000"
+                    name="message"
+                    placeholder="Votre message"
+                    rows="8"
+                    required
+                ></textarea>
+
+                <!-- <div
+                    class="cf-turnstile"
+                    data-sitekey="0x4AAAAAAD-5HPJB6zymYYwZ">
+                </div>   -->
+    
+                <button type="submit" class="submitbutton">
+                    Envoyer
+                </button>
+                <p id="contact-message"></p>
+    
+            </form>
+    
+        </div>
+    
+        <div class="social-column">
+    
+            <h2>Réseaux sociaux</h2>
+            <div class="social-links">
+    
+                <a href="https://www.linkedin.com/in/quentin-rousse-183075298" target="_blank">
+                    <img class="imagereseaux"src="../Media/Réseau sociaux/linkedin-logo-editorial-free-vector.jpg" alt="logo LinkedIn">
+                    Quentin Rousse
+                </a>
+
+
+                <a href="../Media/CV/CV Quentin ROUSSE.pdf" target="_blank" rel="noopener noreferrer">CV Quentin Rousse</a>
+            </div>
+        </div>
+    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="module" src="../JS/main.js"></script>
+    <!-- <script
+    src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+    async
+    defer>
+    </script> -->
+
+</body>
+</html>

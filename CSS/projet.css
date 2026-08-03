@@ -1,0 +1,213 @@
+body{
+    margin: 80px;
+}
+
+
+
+h2{
+    font-size: 3rem;
+    font-family:'Knewave', cursive;
+
+    /* margin-top: 20px; */
+
+    text-align: center;
+
+    text-shadow:
+
+        -3px -3px #FABD67,
+
+         3px 3px #624A98;
+}
+h3{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.BlocProjetH video,
+.BlocProjetV video,
+.BlocProjetCarre video{
+
+    margin-top: 20px;
+
+    width: 100%;
+    height: auto;
+
+    display: block;
+
+}
+
+p{
+    margin-top: 20px;
+}
+
+.BlocProjetH{
+    /* Pour format horizontal */
+    width: 80%;
+    margin: 0 auto;
+
+}
+.BlocProjetH iframe{
+
+    width:100%;
+    aspect-ratio:16 / 9;
+
+    border:none;
+    border-radius:20px;
+
+}
+.BlocProjetV{
+
+    display:flex;
+    gap:60px;
+    align-items:flex-start;
+
+}
+
+
+.BlocProjetV iframe{
+
+    width:30%;
+    aspect-ratio:9 / 16;
+
+    border:none;
+    border-radius: 20px;
+
+    flex-shrink:0;
+
+}
+
+.Description{
+
+    flex:1;
+
+}
+.Description{
+
+    flex: 1;
+
+}
+.BlocProjetCarre{
+
+    display:flex;
+    gap:60px;
+    align-items:flex-start;
+
+}
+
+.BlocProjetCarre iframe{
+
+    width:40%;
+    aspect-ratio:1 / 1;
+
+    border:none;
+    border-radius: 20px;
+
+    flex-shrink:0;
+
+}
+
+iframe{
+    margin-top: 20px;
+}
+
+
+.experience{
+    margin: 0 auto;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+
+    margin-top: 20px;
+}
+
+.experience img{
+    width: 40%;
+    flex-shrink: 0;
+}
+a {
+    display: inline-flex;
+    align-items: center;
+
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+
+    transition: .1s;
+}
+
+a:hover {
+    text-shadow:
+
+        -1.5px -1.5px #FABD67,
+
+         1.5px 1.5px #624A98;
+}
+
+a:active {
+    text-shadow:none;
+}
+
+img{
+    width: 100%;
+    margin-top: 20px;
+
+    border-radius: 20px;
+}
+
+
+
+
+
+@media (max-width:768px){
+
+    body{
+
+        margin:30px;
+
+    }
+
+    .BlocProjetH{
+
+        width:100%;
+
+    }
+
+    .BlocProjetV{
+
+        flex-direction:column;
+
+    }
+
+    .BlocProjetV iframe{
+
+        width:100%;
+        aspect-ratio:9 / 16;
+
+    }
+
+    .BlocProjetCarre{
+
+        flex-direction:column;
+
+    }
+
+    .BlocProjetCarre iframe{
+
+        width:100%;
+        aspect-ratio:1 / 1;
+
+    }
+
+
+    .experience{
+        flex-direction:column;
+    }
+
+    .experience img{
+        width: 100%;
+        /* flex-shrink: 0; */
+    }
+
+}

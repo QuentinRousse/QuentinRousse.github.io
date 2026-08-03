@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <title>Portfolio - Quentin Rousse</title>
+    <!-- ----------------------------- RESET CSS -------------------------------- -->
+    <link rel="stylesheet" href="CSS/reset.css"> 
+    
+<!-- --------------------------------- Liens CSS ------------------------------- -->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/work.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+
+    
+</head>
+
+<body>
+    <!-- --------------------------------- Nav ---------------------------------------- -->
+      <nav>
+       <!-- <div class="blocNav">
+           <a href="#">FR / EN</a>
+       </div> -->
+
+       <div class="headermid">
+           <a href="#About-me">À propos de moi</a>
+           <a href="#Project">Projets</a>
+           <a href="#Contact">Contact</a>
+       </div>
+
+       <!-- <div class="blocNav">
+           <a href="#">Light / Dark</a>
+        </div> -->
+    </nav>
+    <!-- --------------------------------- écran d'arrivé ------------------------------- -->
+    <header>
+
+        <video class="background-video" src="Media/Video/MiniShowreel v1.1.mp4" autoplay loop muted></video>
+    
+        <div class="overlay"></div>
+    
+        <h1>Portfolio</h1>
+    
+        <h2 class="hero-name">Quentin<br>Rousse</h2>
+    
+    </header>
+    <img src="Media/Illustration/Fond cercle.svg" class="background-circle">
+     <!-- --------------------------------- About me ------------------------------- -->
+     <section id="About-me">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+                L'audiovisuel est pour moi un moyen de raconter des histoires, de transmettre des émotions et de communiquer des messages qui marquent.
+                J'évolue principalement dans les domaines de l'audiovisuel et de l'animation 2D et 3D, où je cherche à donner vie à des histoires en mêlant créativité, esthétique et maîtrise technique. <br> <br>
+                Chaque projet est pour moi l'occasion d'expérimenter, d'apprendre et de repousser mes limites. <br> <br>
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="Media/img/Moi-gauchev2.png" alt="Photo de moi">
+          </div>
+        </div>
+        <div class="logos-slider">
+
+            <button class="slider-btn prev">&#10094;</button>
+        
+            <div class="logos-container">
+        
+                <a class="logo-item" href="Experience/Engie.html" target="_blank">
+                    <img src="Media/logo/Logo Engie.svg" alt="Logo Engie">
+                </a>
+
+                <a class="logo-item" href="Experience/Unitedeprod.html" target="_blank">
+                    <img src="Media/logo/logo-prod-bleu.png" alt="Logo Unité de prod">
+                </a>
+
+                <a class="logo-item" href="Experience/VienneTV.html" target="_blank">
+                    <img src="Media/logo/cropped-logo-vtv2.png" alt="Logo Vienne.TV">
+                </a>
+
+                <a class="logo-item" href="Experience/USMB.html" target="_blank">
+                    <img src="Media/logo/logo.svg" alt="Université Savoie Mont blanc">
+                </a>  
+        
+            </div>
+        
+            <button class="slider-btn next">&#10095;</button>
+        
+        </div>
+      </section>
+     <!-- --------------------------------- PARTIE HEADER PROJET ------------------------------- -->
+    <main id="Project">
+        <div class="filters">
+
+            <button class="filter" data-filter="Audiovisuel">
+                Audiovisuel
+            </button>
+        
+            <button class="filter" data-filter="Animation">
+                Animation
+            </button>
+
+            <button class="filter" data-filter="Photographie">
+                Photographie
+            </button>
+        
+            <button class="filter" data-filter="Graphisme">
+                Graphisme
+            </button>
+        
+        </div>
+        <!-- --------------------------------- PARTIE PROJET ------------------------------- -->
+        <div class="projects-grid">
+
+            <a class="project" target="_blank"
+                data-category="Audiovisuel"
+                href="Projet/Engie.html">
+
+                <img src="Media/Thumbnail/ENGIE.png">
+
+                <div class="project-overlay">
+                    <p class="year">2026</p>
+                    <h4 class="subtitle">Documentaire</h4>
+                    <h3>ENGIE</h3>
+                </div>
+
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Animation"
+                href="Projet/Tower.html">
+
+                <img src="Media/Thumbnail/The Tower.png">
+
+                <div class="project-overlay">
+                    <p class="year">2026</p>
+                    <h4 class="subtitle">Animation 3D</h4>
+                    <h3>Tower</h3>
+                </div>
+
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Audiovisuel Animation"
+                href="Projet/StopmotionAnnecy.html">
+
+                <img src="Media/Thumbnail/Stop motion.png">
+
+                <div class="project-overlay">
+                    <p class="year">2026</p>
+                    <h4 class="subtitle">Stop motion</h4>
+                    <h3>Festival international du film d'animation d'Annecy</h3>
+                </div>
+
+           
+
+              
+
+            <a class="project" target="_blank"
+                data-category="Animation"
+                href="Projet/Cube-Challenge.html">
+
+                <img src="Media/Thumbnail/3D cube.png">
+
+                <div class="project-overlay">
+                    <p class="year">2026</p>
+                    <h4 class="subtitle">Animation 3D</h4>
+                    <h3>Cube challenge - Concours</h3>
+                </div>
+
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Animation"
+                href="Projet/AnglaisKinetic.html">
+
+                <img src="Media/Thumbnail/Kinetic anglais.png">
+
+                <div class="project-overlay">
+                    <p class="year">2026</p>
+                    <h4 class="subtitle">Animation</h4>
+                    <h3>Kinetic Anglais</h3>
+                </div>
+
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Animation"
+                href="Projet/LogoMistral.html">
+
+                <img src="Media/Thumbnail/Mistral.png">
+
+                <div class="project-overlay">
+                    <p class="year">2026</p>
+                    <h4 class="subtitle">Animation</h4>
+                    <h3>Logo Mistral</h3>
+                </div>
+
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Audiovisuel"
+                href="Projet/festivalBD.html">
+
+                <img src="Media/Thumbnail/Festival de la BD.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Captation & Montage</h4>
+                    <h3>Festival internationnal de la BD de chambéry</h3>
+                </div>
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Photographie"
+                href="Projet/Gramicci.html">
+
+                <img src="Media/Thumbnail/Gramicci.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Portrait</h4>
+                    <h3>Bonnet Gramicci</h3>
+                </div>
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Graphisme"
+                href="Projet/PalaisDeTokyo.html">
+
+                <img src="Media/Thumbnail/Guide Expo.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Livret de visites</h4>
+                    <h3>Palais de Tokyo</h3>
+                </div>
+            </a>
+
+            
+            <a class="project" target="_blank"
+            data-category="Audiovisuel"
+            href="Projet/JazzAVienne.html">
+
+                <img src="Media/Thumbnail/Captation Jazz Vienne.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Captation & Journalisme</h4>
+                    <h3>Actualité Jazz à Vienne</h3>
+                </div>
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Audiovisuel"
+                href="Projet/La-pyramide.html">
+
+                <img src="Media/Thumbnail/Pyramide.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Hyperlapse</h4>
+                    <h3>La pyramide</h3>
+                </div>
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Audiovisuel"
+                href="Projet/PopcornReview.html">
+
+                <img src="Media/Thumbnail/Popcorn review.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Montage</h4>
+                    <h3>Popcorn Review</h3>
+                </div>
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Audiovisuel"
+                href="Projet/microtrottoir.html">
+
+                <img src="Media/Thumbnail/Micro trottoir.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Journalisme</h4>
+                    <h3>Micro-Trottoir Vienne.TV</h3>
+                </div>
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Photographie"
+                href="Projet/eclair-1.html">
+
+                <img src="Media/Thumbnail/eclair.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Light painting</h4>
+                    <h3>Éclair</h3>
+                </div>
+
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Graphisme"
+                href="Projet/Festifilm.html">
+
+                <img src="Media/Thumbnail/Affiche festifilm.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Graphisme</h4>
+                    <h3>Affiche Festifilm</h3>
+                </div>
+
+            </a>
+
+            <a class="project" target="_blank"
+                data-category="Animation"
+                href="Projet/KineticWord.html">
+
+                <img src="Media/Thumbnail/motion design.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Motion Design</h4>
+                    <h3>Kinetic Typo</h3>
+                </div>
+            </a>
+
+            <a class="project" target="_blank"
+            data-category="Animation"
+            href="Projet/Animation-traditionnel.html">
+
+            <img src="Media/Thumbnail/Animation traditionnel.png">
+
+            <div class="project-overlay">
+                <p class="year">2025</p>
+                <h4 class="subtitle">Animation traditionnel</h4>
+                <h3>Arbre</h3>
+            </div>
+        </a>
+            <a class="project" target="_blank"
+                data-category="Photographie"
+                href="Projet/Etoiles-1.html">
+
+                <img src="Media/Thumbnail/Etoiles.png">
+
+                <div class="project-overlay">
+                    <p class="year">2025</p>
+                    <h4 class="subtitle">Light painting</h4>
+                    <h3>Étoiles</h3>
+                </div>
+
+            </a>
+
+     
+
+            <a class="project" target="_blank"
+                data-category="Animation"
+                href="Projet/Concours-de-3D.html">
+
+                <img src="Media/Thumbnail/Kinetic Rush.png">
+
+                <div class="project-overlay">
+                    <p class="year">2024</p>
+                    <h4 class="subtitle">Animation 3D</h4>
+                    <h3>Cube challenge - Concours</h3>
+                </div>
+
+            </a>
+        </div>
+    </main>
+
+    <!-- --------------------------------- Footer ------------------------------- -->
+    
+    <footer id="Contact">
+
+        <div class="contact-column">
+    
+            <h2>Contact</h2>
+    
+            <form id="contact-form">
+    
+                <input maxlength="100"
+                    type="email"
+                    name="email"
+                    placeholder="Votre e-mail"
+                    required
+                >
+    
+                <input maxlength="100"
+                    type="text"
+                    name="subject"
+                    placeholder="Objet"
+                    required
+                >
+    
+                <textarea id="messagearea" maxlength="5000"
+                    name="message"
+                    placeholder="Votre message"
+                    rows="8"
+                    required
+                ></textarea>
+
+                <!-- <div
+                    class="cf-turnstile"
+                    data-sitekey="0x4AAAAAAD-5HPJB6zymYYwZ">
+                </div>   -->
+    
+                <button type="submit" class="submitbutton">
+                    Envoyer
+                </button>
+                <p id="contact-message"></p>
+    
+            </form>
+    
+        </div>
+    
+        <div class="social-column">
+    
+            <h2>Réseaux sociaux</h2>
+            <div class="social-links">
+    
+                <a href="https://www.linkedin.com/in/quentin-rousse-183075298" target="_blank">
+                    <img class="imagereseaux"src="Media/Réseau sociaux/linkedin-logo-editorial-free-vector.jpg" alt="logo LinkedIn">
+                    Quentin Rousse
+                </a>
+
+
+                <a href="Media/CV/CV Quentin ROUSSE.pdf" target="_blank" rel="noopener noreferrer">CV Quentin Rousse</a>
+            </div>
+        </div>
+    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="module" src="JS/main.js"></script>
+    <!-- <script
+    src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+    async
+    defer> -->
+</script>
+
+</body>
+</html>

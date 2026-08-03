@@ -1,0 +1,125 @@
+
+#About-me {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #About-me h2 {
+    font-size: 3rem; /* Taille du titre */
+    font-family:'Knewave', cursive;
+    margin-bottom: 25px;
+    text-align: left;
+
+    text-shadow:
+
+        -3px -3px #FABD67,
+
+         3px 3px #624A98;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 30px; /* Espace entre le texte et la photo */
+    margin-bottom: 40px;
+  }
+  
+  .about-text {
+    flex: 1; 
+  }
+  
+  .about-image {
+    flex: 0 0 300px; /* Largeur fixe pour la photo */
+
+    position: relative;
+    top: -160px;   /* Monte la photo de 80px */
+   
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Pas de bord arrondi si tu veux un style carré */
+    object-fit: cover; /* Pour que l'image couvre bien son conteneur */
+  }
+  
+  /* ---------------------------------------------------Section des logos ----------------------------------------------------------- */
+  .logos-slider{
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+    margin-top: -130px;
+}
+
+.logos-container{
+
+    display:flex;
+    overflow:hidden;
+
+    flex:1;
+}
+
+.logo-item{
+
+    min-width:33.333%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo-item img{
+
+    width:180px;
+    height:auto;
+
+    transition:.3s;
+}
+
+.logo-item img:hover{
+
+    transform:scale(1.05);
+}
+
+.slider-btn{
+
+    border:none;
+    background:none;
+    cursor:pointer;
+
+    font-size:35px;
+}
+
+
+
+@media (max-width:768px){
+
+  .about-content{
+      flex-direction:column;
+  }
+
+  .about-image {
+    position: relative;
+    top: 0;   /* Monte la photo de 80px */
+    width: 77%;
+    height: auto;
+  }
+
+  .logos-container{
+
+    margin-top: 80px;
+
+    display:flex;
+    overflow:hidden;
+
+    flex:1;
+    scroll-behavior:smooth;
+    scrollbar-width:none; 
+  } 
+  .logos-container::-webkit-scrollbar{
+    display:none;              
+}
+  .logo-item{
+    min-width:100%;
+}
+}
