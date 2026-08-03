@@ -2,42 +2,45 @@ const container = document.querySelector(".logos-container");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 
-if (!container || !next || !prev) {
-    // Cette page ne contient pas de slider
-    return;
+if (container && next && prev) {
+
+    next.addEventListener("click", () => {
+
+        const maxScroll = container.scrollWidth - container.clientWidth;
+    
+        if (container.scrollLeft >= maxScroll - 5) {
+            container.scrollTo({
+                left: 0,
+                behavior: "smooth"
+            });
+        } else {
+            container.scrollBy({
+                left: getScrollAmount(),
+                behavior: "smooth"
+            });
+        }
+    });
+
+    prev.addEventListener("click", () => {
+
+        if (container.scrollLeft <= 5) {
+            container.scrollTo({
+                left: container.scrollWidth,
+                behavior: "smooth"
+            });
+        } else {
+            container.scrollBy({
+                left: -getScrollAmount(),
+                behavior: "smooth"
+            });
+        }
+    });
+
 }
 
-next.addEventListener("click", () => {
 
-    const maxScroll = container.scrollWidth - container.clientWidth;
 
-    if (container.scrollLeft >= maxScroll - 5) {
-        container.scrollTo({
-            left: 0,
-            behavior: "smooth"
-        });
-    } else {
-        container.scrollBy({
-            left: getScrollAmount(),
-            behavior: "smooth"
-        });
-    }
-});
 
-prev.addEventListener("click", () => {
-
-    if (container.scrollLeft <= 5) {
-        container.scrollTo({
-            left: container.scrollWidth,
-            behavior: "smooth"
-        });
-    } else {
-        container.scrollBy({
-            left: -getScrollAmount(),
-            behavior: "smooth"
-        });
-    }
-});
 
 function getScrollAmount() {
 

@@ -10,8 +10,3 @@ import "./animation.js";
 // import "./language.js";
 
 
-// import "../JS/slider.js";
-// import "../JS/filters.js";
-// import "../JS/footer.js";
-// import "../JS/contact.js";
-// import "../JS/animation.js";
