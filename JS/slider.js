@@ -2,6 +2,11 @@ const container = document.querySelector(".logos-container");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 
+if (!container || !next || !prev) {
+    // Cette page ne contient pas de slider
+    return;
+}
+
 next.addEventListener("click", () => {
 
     const maxScroll = container.scrollWidth - container.clientWidth;
